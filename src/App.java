@@ -5,14 +5,30 @@ import java.util.Scanner;
 import java.util.TreeMap;
 
 import org.apache.commons.lang3.time.StopWatch;
-
+//sfdsfdsfdsfds
 public class App {
     public static void main(String[] args) throws Exception{
+//sfdsfdsfdsfdsfdsf
+      /*  int[] ar = {3, 10, 2000, -6, 70};
+        for(int i = 0; i < 5; i++){
+            System.out.println(ar[i]);
+        }
+
+        ar[2] = 1;
+        for(int i = 0; i < 5; i++){
+            System.out.println(ar[i]);
+        }
+
+        System.out.print(ar.length);
+
+*/
+
+
+
 
         StopWatch s = new StopWatch();
         Map<Integer, String> inventory = new TreeMap<Integer, String>();
-        //Create HashMap
-
+        
         //Fill TreeMap using fill() (below)
         s.start();
         fillMap(inventory);
@@ -20,6 +36,16 @@ public class App {
         System.out.println(s.getNanoTime());
         s.reset();
 
+       
+       
+       
+       
+       
+       
+       
+       
+       //Create HashMap
+       /*
         //Fill HashMap using fill() (below)
         //Add 3 things to TreeMap
         //Add 3 things to HashMap
